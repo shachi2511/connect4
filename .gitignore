@@ -1,0 +1,15 @@
+# Ignore compiled files
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore Mac junk
+.DS_Store
+__MACOSX/
+
+# Ignore build folders
+/out/
+/target/
+/bin/
+
