@@ -1,13 +1,64 @@
-Connect Four Game 🔴🔵
-A multiplayer Connect Four game with graphical user interface and client-server networking, built in Java.
-About This Project
-This is a complete implementation of the classic Connect Four game with networking capabilities. Players can connect from different computers and play against each other in real-time.
-Features
+# Connect Four 🔴🔵
 
-Multiplayer Support: Multiple clients can connect and play simultaneously
-Graphical User Interface: Clean Java Swing-based GUI
-Real-time Communication: Network messaging between clients and server
-Game Management: Lobby system and chat functionality
-Cross-platform: Runs on any system with Java installed
+A multiplayer Connect Four game with graphical user interface and client-server networking, built in Java.
+
+## Features
+
+- **Multiplayer Support**: Multiple clients can connect and play simultaneously
+- **Graphical User Interface**: Clean Swing-based GUI for both client and server
+- **Real-time Communication**: Network messaging between clients and server
+- **Game Management**: Lobby system, chat functionality, and game session handling
+- **Cross-platform**: Runs on any system with Java
+
+## Project Structure
+connect4/
+├── CoonectFourclient/          # Client application
+│   └── src/
+│       ├── client/             # Core client logic
+│       ├── client/gui/         # User interface components
+│       ├── client/model/       # Game board model
+│       └── shared/             # Shared networking classes
+├── ConnectFourServer/          # Server application
+│   └── src/
+│       ├── server/             # Server logic and client handling
+│       ├── server/gui/         # Server management interface
+│       ├── server/model/       # Game session management
+│       └── shared/             # Shared networking classes
+
+## How to Run
+
+### Starting the Server
+1. Navigate to `ConnectFourServer/src/`
+2. Compile and run `server/Main.java`
+3. The server GUI will open - configure settings and start the server
+
+### Starting the Client
+1. Navigate to `CoonectFourclient/src/`
+2. Compile and run `client/Main.java`
+3. Enter server details in the login panel
+4. Connect and start playing!
+
+## Technologies Used
+
+- **Java**: Core programming language
+- **Swing**: GUI framework
+- **Socket Programming**: Network communication
+- **Multithreading**: Handling multiple client connections
+
+## Game Components
+
+- **GameBoard**: Core game logic and win condition checking
+- **NetworkMessage**: Communication protocol between client and server
+- **ClientHandler**: Manages individual client connections on server
+- **GameSession**: Handles game state and player interactions
+
+## Development
+
+This project was developed as part of a computer science course, demonstrating:
+- Object-oriented programming principles
+- Network programming concepts
+- GUI development
+- Multi-threaded application design
+
 
 
