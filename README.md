@@ -11,6 +11,7 @@ A multiplayer Connect Four game with graphical user interface and client-server 
 - **Cross-platform**: Runs on any system with Java
 
 ## Project Structure
+
 connect4/
 ├── CoonectFourclient/          # Client application
 │   └── src/
