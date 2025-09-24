@@ -10,22 +10,7 @@ A multiplayer Connect Four game with graphical user interface and client-server 
 - **Game Management**: Lobby system, chat functionality, and game session handling
 - **Cross-platform**: Runs on any system with Java
 
-## Project Structure
-
-connect4/
-├── CoonectFourclient/          # Client application
-│   └── src/
-│       ├── client/             # Core client logic
-│       ├── client/gui/         # User interface components
-│       ├── client/model/       # Game board model
-│       └── shared/             # Shared networking classes
-├── ConnectFourServer/          # Server application
-│   └── src/
-│       ├── server/             # Server logic and client handling
-│       ├── server/gui/         # Server management interface
-│       ├── server/model/       # Game session management
-│       └── shared/             # Shared networking classes
-
+    
 ## How to Run
 
 ### Starting the Server
